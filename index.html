@@ -1,76 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="./source/img/webp/favicon.webp" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Halloween Website</title>
-  </head>
-  <body>
 
-    <!-- =@note header = -->
-    <header class="header" id="header">
-      <nav class="nav container">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="./source/img/webp/favicon.webp" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halloween Website</title>
+</head>
 
-        <!-- = logo = -->
-        <a href="" class="nav__logo">
-          <img src="./source/img/webp/logo-skull.webp" alt="logo"> Halloween
-        </a>
-        <!-- =/logo = -->
+<body>
 
-        <!-- = menu = -->
-        <div class="nav__menu" id="nav-menu">
-          
-          <!-- = enlaces = -->
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About Us</a>
-            </li>
-            <li class="nav__item">
-              <a href="#items" class="nav__link">Items</a>
-            </li>
-            <li class="nav__item">
-              <a href="#party" class="nav__link">Party</a>
-            </li>
-          </ul>
-          <!-- =/enlaces = -->
+  <!--@note = shape 1 = -->
+  <img src="./source/img/webp/shape-bg.webp" alt="shape" class="shape__bg">
+  <!-- =/shape = -->
 
-          <!-- = close = -->
-          <div class="nav__close" id="nav-close">
-            <i class="ri-close-line"></i>
-          </div>
-          <!-- =/close = -->
+  <!-- =@note header = -->
+  <header class="header" id="header">
+    <nav class="nav container">
 
-          <!-- = nav img = -->
-          <img src="./source/img/webp/nav-bat.webp" alt="nav img" class="nav__img">
-          <!-- =/nav img = -->
+      <!-- = logo = -->
+      <a href="" class="nav__logo">
+        <img src="./source/img/webp/logo-skull.webp" alt="logo"> Halloween
+      </a>
+      <!-- =/logo = -->
+
+      <!-- = menu = -->
+      <div class="nav__menu" id="nav-menu">
+
+        <!-- = enlaces = -->
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#items" class="nav__link">Items</a>
+          </li>
+          <li class="nav__item">
+            <a href="#party" class="nav__link">Party</a>
+          </li>
+        </ul>
+        <!-- =/enlaces = -->
+
+        <!-- = close = -->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
         </div>
-        <!-- =/menu = -->
+        <!-- =/close = -->
 
-        <!-- = toggle = -->
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="ri-menu-4-line"></i>
+        <!-- = nav img = -->
+        <img src="./source/img/webp/nav-bat.webp" alt="nav img" class="nav__img">
+        <!-- =/nav img = -->
+      </div>
+      <!-- =/menu = -->
+
+      <!-- = toggle = -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-4-line"></i>
+      </div>
+      <!-- =/toggle = -->
+    </nav>
+  </header>
+  <!-- =/header = -->
+
+  <!-- = main = -->
+  <main class="main">
+
+    <!-- =@note home = -->
+    <section class="home section" id="home">
+
+      <!--@note = shapes 2= -->
+      <div class="shape__small"></div>
+      <div class="shape__big"></div>
+      <!-- =/shapes = -->
+
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title">
+            <span>Halloween</span> Trick Or Treat!!
+            <img src="./source/img/webp/stars.webp" alt="img title" class="home__title-img-1">
+            <img src="./source/img/webp/stars.webp" alt="img title" class="home__title-img-2">
+          </h1>
+
+          <p class="home__description">
+            This Halloween, enjoy trick-or-treating
+            with your friends and spend a terrifying
+            night under the full moon.
+          </p>
+
+          <a href="#" class="button">Explore Now!!!</a>
         </div>
-        <!-- =/toggle = -->
-      </nav>
-    </header>
-    <!-- =/header = -->
 
-    <!-- = main = -->
-    <main class="main">
+        <img src="./source/img/webp/home-pumpkin.webp" alt="home" class="home__img">
 
-      <!-- =@note home = -->
-      <section class="home section" id="home">
-        
-      </section>
-      <!-- =/home = -->
-    </main>
-    <!-- =/main = -->
+        <img src="./source/img/webp/home-tree1.webp" alt="tree" class="home__tree-1">
+        <img src="./source/img/webp/home-tree2.webp" alt="tree" class="home__tree-2">
+
+      </div>
+    </section>
+    <!-- =/home = -->
+
+    
+  </main>
+  <!-- =/main = -->
+
+  <section class="section"></section>
+  <section class="section"></section>
+  <section class="section"></section>
+  <section class="section"></section>
+  <section class="section"></section>
 
 
-    <script type="module" src="/main.js"></script>
-  </body>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
