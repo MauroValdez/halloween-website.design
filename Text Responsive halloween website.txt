@@ -78,8 +78,7 @@ $15.99
 
 ========== PARTY   ==========
 .section__title
-Halloween <br>
-party 31 October
+Halloween <br> party 31 October
 
 .party__description
 Organize a great Halloween party and 
@@ -95,8 +94,7 @@ Start The Party!!!
 Halloween
 
 .footer__description
-Enjoy the spookiest <br> 
-night of your life.
+Enjoy the spookiest <br>  night of your life.
 
 .footer__title | .footer__link
 About Us
