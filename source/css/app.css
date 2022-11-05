@@ -799,6 +799,7 @@ a {
     grid-template-columns: repeat(3, 200px);
     gap: 6rem 3.5rem;
   }
+  
   .items__card {
     padding: 6rem 1rem 1.5rem;
   }
@@ -874,5 +875,37 @@ a {
   }
   .scrollup {
     right: 4rem;
+  }
+}
+@media screen and (min-width: 1248px) {
+  .container {
+    width: min(80%, 120rem);
+  }
+  .home__tree-1,
+  .home__tree-2 {
+    width: 450px;
+  }
+  .home__img {
+    width: 600px;
+  }
+  .items__container {
+    column-gap: 7rem;
+  }
+  .footer__container {
+    justify-content: space-evenly;
+  }
+  .footer .shape__big {
+    left: 2rem;
+  }
+  .footer__tree-2 {
+    left: 10%;
+  }
+  .scrollup {
+    right: 14rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .items__container {
+    column-gap: 3rem;
   }
 }
