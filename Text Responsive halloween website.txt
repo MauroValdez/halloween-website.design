@@ -57,8 +57,7 @@ Know More!!!
 
 ========== ITEMS ==========
 .section__title
-Select your <br>
-lost item
+Select your <br> lost item
 
 .items__name .items__price
 Candy Apple
